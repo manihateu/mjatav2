@@ -19,8 +19,8 @@ const Header: React.FC<HeaderPropsType> = ({fullOrderPrice, fullOrderAmount}: He
           <img src={logo} alt="Роллы"/>
 
           <div className="logo__description">
-            <h1 className="logo__title">Мята</h1>
-            <span className="logo__subtitle">Launge Bar</span>
+            <h1 className="logo__title">Суши Boom</h1>
+            <span className="logo__subtitle">пицца | роллы | wok</span>
           </div>
         </Link>
         <Link to='/cart-page' className="header-link">
