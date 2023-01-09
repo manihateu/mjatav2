@@ -90,3 +90,9 @@ body {
 .app-content-top-mobile {
   transform: translateX(0);
 }
+
+@media screen and (max-width: 410px) {
+  .app-content {
+    justify-content: center;
+  }
+}
